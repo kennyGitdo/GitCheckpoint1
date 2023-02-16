@@ -8,6 +8,9 @@
 
             CheckTest check = new CheckTest();
             check.testMessage("Task 2 checked");
+
+            int result = Calculate.Add(2, 3);
+            Console.WriteLine(result);
         }
     }
 }
